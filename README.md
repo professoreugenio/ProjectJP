@@ -58,7 +58,7 @@
 
 A estrutura acima descrita pode ser visualizada na imagem a seguir.
 
-![layout](./doc/layout/layout.png)
+![layout](projeto-digital-store\doc\layout\layout.png)
 
 - Exemplo de código do componente `<Layout />`:
 
@@ -120,7 +120,7 @@ O carrinho de compras será some um icone renderizado ao lado da area de redirec
 <strong>Sugestão:</strong> Use o componente **NavLink** do `react-router-dom`.
 
 **Estrutura**
-![](./doc/layout/header.png)
+![](projeto-digital-store\doc\layout\header.png)
 
 ## 3.2 - Rodapé (`<Footer />`)
 
@@ -160,7 +160,7 @@ O carrinho de compras será some um icone renderizado ao lado da area de redirec
 
 **Estrutura**
 
-![](./doc/layout/footer.png)
+![](projeto-digital-store\doc\layout\footer.png)
 
 </details>
 
@@ -204,7 +204,7 @@ Componentes compartilhados são componentes onde serão utilizados em duas ou ma
   - A propriedade `children` vai ter como valor todos os elementos filhos da tag `<Section />` e deve ser usado para tornar esse componente mais dinâmico e reutilizável.
 
 **Estrutura**
-  ![buybox](./doc/layout/section.png)
+  ![buybox](projeto-digital-store\doc\layout\section.png)
 
 
 ## 4.2 - Componente para cartão de produto
@@ -224,7 +224,7 @@ Componentes compartilhados são componentes onde serão utilizados em duas ou ma
 
 **Estrutura** 
 
-![buybox](./doc/layout/product-card.png)
+![buybox](projeto-digital-store\doc\layout\product-card.png)
 
 
 ## 4.3 - Componente de listagem de produtos
@@ -254,7 +254,7 @@ Componentes compartilhados são componentes onde serão utilizados em duas ou ma
 	```
 
 **Estrutura** 
-  ![buybox](./doc/layout/product-listing.png)
+  ![buybox](projeto-digital-store\doc\layout\product-listing.png)
 
 
 ## 4.4 - Componente de Galeria de imagens
@@ -301,10 +301,10 @@ Componentes compartilhados são componentes onde serão utilizados em duas ou ma
   - Uma borda de 2px na cor `primary` deve ser aplicada na miniatura que for selecionada
 
 **Estrutura da galeria de imagens exibida na home**
-  ![buybox](./doc/layout/gallery.png)
+  ![buybox](projeto-digital-store\doc\layout\gallery.png)
  
 **Estrutura da galeria de imagens exibida na home**
-  ![buybox](./doc/layout/product-gallery.png)
+  ![buybox](projeto-digital-store\doc\layout\product-gallery.png)
 
 </details>
 
@@ -396,7 +396,7 @@ Usando os componentes `<Section />` e `<ProductListing />` deve ser renderizado 
     Mais imagens para a listagem de produtos podem ser encontradas no diretório `public`
 
 **Estrutura**
-![home-page-layout](./doc/layout/home-page.png)
+![home-page-layout](projeto-digital-store\doc\layout\home-page.png)
 </details>
 
 
@@ -459,7 +459,7 @@ Os campos de filtro devem ser inputs (checkbox ou radio) renderizados na esquerd
     - O atributo `values` é opcional e quando existir deve ser usado como *value* do input.
 
 *Layout do componente <FilterGroup />*
-![filter-group-layout](./doc/layout/filter-group.png)
+![filter-group-layout](projeto-digital-store\doc\layout\filter-group.png)
 
 ## 6.3 - listagem de produtos
 
@@ -491,7 +491,7 @@ A lado do campos de filtro e ordenação deve aparecer uma lista de produtos usa
   Mais imagens para a listagem de produtos podem ser encontradas no diretório `public`
 
 **Estrtutura**
-![home-page-layout](./doc/layout/product-listing-page.png)
+![home-page-layout](projeto-digital-store\doc\layout\product-listing-page.png)
 </details>
 
 # 7 -  Página de visualização do produto
@@ -611,7 +611,7 @@ Dentro do componente `<Section />` deve ser passado como filho o componente `<Pr
     ```
 
 **Estrutura**
-![layout-product-view-page](./doc/layout/product-view-page.png)
+![layout-product-view-page](projeto-digital-store\doc\layout\product-view-page.png)
 </details>
 </details>
 
